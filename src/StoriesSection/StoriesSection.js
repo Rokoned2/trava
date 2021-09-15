@@ -34,7 +34,7 @@ const stories = [
 
 const StoriesSection = () => {
   return (
-    <section className="section-stories">
+    <section className="section-stories" id="section-stories">
       <div className="bg-video">
         <video className="bg-video__content" autoPlay muted loop>
           <source src="../img/video.mp4" type="video/mp4" />

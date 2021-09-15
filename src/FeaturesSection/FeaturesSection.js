@@ -41,7 +41,7 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="section-features">
+    <section className="section-features" id="section-features">
       <div className="row">
         {features.map(({ id, title, description }) => (
           <div className="col-1-of-4" key={id}>

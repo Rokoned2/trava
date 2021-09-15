@@ -8,7 +8,7 @@ import Photo3L from "./img/nat-3-large.jpg";
 
 const AboutSection = () => {
   return (
-    <section className="section-about">
+    <section id="section-about" className="section-about">
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           Tours emocionantes para personas aventureras{" "}
